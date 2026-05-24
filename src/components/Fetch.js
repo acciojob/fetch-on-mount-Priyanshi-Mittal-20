@@ -12,9 +12,9 @@ const Fetch = () => {
   return (
     <div>
       {
-        data.map(info=>(
+        data.map((info,index)=>(
           <>
-          <h2>{info.title}</h2>
+          <h2>{index+1}. {info.title}</h2>
           <p>{info.body}</p>
           </>
         ))
