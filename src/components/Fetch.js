@@ -14,7 +14,7 @@ const Fetch = () => {
       {
         data.map(info=>(
           <>
-          <p>{info.title}</p>
+          <h2>{info.title}</h2>
           <p>{info.body}</p>
           </>
         ))
